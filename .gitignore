@@ -212,7 +212,7 @@ __marimo__/
  *.tmp 
  *.swp 
  *.swo
-
+*.logs
 
 # --- IDE/editor settings ---
 .vscode/
