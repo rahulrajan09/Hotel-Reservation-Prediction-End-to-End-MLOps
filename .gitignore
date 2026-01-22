@@ -143,7 +143,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+.venv/
+venv/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -205,3 +206,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Logs & temp files ---
+ *.log 
+ *.tmp 
+ *.swp 
+ *.swo
+
+
+# --- IDE/editor settings ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Secrets ---
+.env
+*.key
+*.pem
+*.crt
+
+# Pip editable install metadata
+*.egg-info/
+.eggs/
+
