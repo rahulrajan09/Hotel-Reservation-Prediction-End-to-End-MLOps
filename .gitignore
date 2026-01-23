@@ -225,8 +225,13 @@ __marimo__/
 *.key
 *.pem
 *.crt
+artifacts
+artifacts/
 
 # Pip editable install metadata
 *.egg-info/
 .eggs/
 
+#config files
+config/config.yaml
+config/paths_config.py
